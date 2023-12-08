@@ -44,7 +44,7 @@ export const routes: Routes = [
   {
     path: '**',
     loadComponent: () =>
-      import('./not-found-page/not-found-page.component').then(
+      import('@ws-nx-enschede-81223/shared/feature-not-found-page').then(
         m => m.NotFoundPageComponent
       ),
   },

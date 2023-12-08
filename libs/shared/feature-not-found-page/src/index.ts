@@ -1,1 +1,1 @@
-export * from './lib/shared-feature-not-found-page/shared-feature-not-found-page.component';
+export * from './lib/not-found-page.component';

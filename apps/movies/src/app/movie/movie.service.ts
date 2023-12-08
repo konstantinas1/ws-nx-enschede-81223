@@ -7,7 +7,10 @@ import { TMDBMovieDetailsModel } from '../shared/model/movie-details.model';
 import { TMDBMovieGenreModel } from '../shared/model/movie-genre.model';
 import { TMDBMovieModel } from '../shared/model/movie.model';
 import { MovieModel } from './movie-model';
-import { ENVIRONMENT_TOKEN, Environment } from '../shared/env.token';
+import {
+  ENVIRONMENT_TOKEN,
+  Environment,
+} from '@ws-nx-enschede-81223/shared/util-env-token';
 
 @Injectable({
   providedIn: 'root',
