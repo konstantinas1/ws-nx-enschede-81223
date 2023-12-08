@@ -3,7 +3,7 @@
   "$schema": "../../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "libs/movies/data-access-movies/src",
   "prefix": "ws-nx-enschede-81223",
-  "tags": [],
+  "tags": ["scope:movies", "type:data-access"],
   "projectType": "library",
   "targets": {
     "test": {
