@@ -8,9 +8,9 @@ import {
   ViewChild,
 } from '@angular/core';
 import { Router } from '@angular/router';
-import { MovieModel } from '../movie-model';
+import { MovieModel } from '@ws-nx-enschede-81223/shared/models';
 import { DOCUMENT, NgFor } from '@angular/common';
-import { MovieCardComponent } from '../movie-card/movie-card.component';
+import { MovieCardComponent } from '@ws-nx-enschede-81223/movies/ui-movie-card';
 
 @Component({
   selector: 'movie-list',

@@ -1,6 +1,10 @@
 {
   "extends": "./tsconfig.json",
-  "include": ["src/**/*.ts"],
+  "include": [
+    "src/**/*.ts",
+    "../../libs/movies/ui-movie-card/src/lib/movies-ui-movie-card/movie-card.component.ts",
+    "../../libs/movies/feature-movie-search-control/src/lib/movies-feature-movie-search-control/movie-search-control.component.ts"
+  ],
   "compilerOptions": {
     "types": ["jest", "node"]
   }

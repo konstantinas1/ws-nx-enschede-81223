@@ -8,11 +8,11 @@ import {
   ReactiveFormsModule,
 } from '@angular/forms';
 import { filter } from 'rxjs';
-import { MovieModel } from '../movie-model';
+import { MovieModel } from '@ws-nx-enschede-81223/shared/models';
 import { MovieService } from '../movie.service';
 import { FastSvgComponent } from '@push-based/ngx-fast-svg';
 import { NgTemplateOutlet, NgFor } from '@angular/common';
-import { MovieSearchControlComponent } from '../movie-search-control/movie-search-control.component';
+import { MovieSearchControlComponent } from '@ws-nx-enschede-81223/movies/feature-movie-search-control';
 
 @Component({
   selector: 'app-my-movie-list',
