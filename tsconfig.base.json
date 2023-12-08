@@ -15,9 +15,30 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@ws-nx-enschede-81223/movies/data-access-movies": [
+        "libs/movies/data-access-movies/src/index.ts"
+      ],
+      "@ws-nx-enschede-81223/movies/feature-movie-search-control": [
+        "libs/movies/feature-movie-search-control/src/index.ts"
+      ],
+      "@ws-nx-enschede-81223/movies/ui-movie-card": [
+        "libs/movies/ui-movie-card/src/index.ts"
+      ],
+      "@ws-nx-enschede-81223/shared/feature-not-found-page": [
+        "libs/shared/feature-not-found-page/src/index.ts"
+      ],
+      "@ws-nx-enschede-81223/shared/models": [
+        "libs/shared/models/src/index.ts"
+      ],
       "@ws-nx-enschede-81223/shared/ui": ["libs/shared/ui/src/index.ts"],
+      "@ws-nx-enschede-81223/shared/ui-star-rating": [
+        "libs/shared/ui-star-rating/src/index.ts"
+      ],
       "@ws-nx-enschede-81223/shared/ui-theme": [
         "libs/shared/ui-theme/src/index.ts"
+      ],
+      "@ws-nx-enschede-81223/shared/util-env-token": [
+        "libs/shared/util-env-token/src/index.ts"
       ],
       "@ws-nx-enschede-81223/shared/utils": ["libs/shared/utils/src/index.ts"]
     }

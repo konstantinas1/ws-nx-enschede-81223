@@ -1,0 +1,27 @@
+{
+  "name": "shared-util-env-token",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/shared/util-env-token/src",
+  "prefix": "ws-nx-enschede-81223",
+  "tags": [],
+  "projectType": "library",
+  "targets": {
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "libs/shared/util-env-token/jest.config.ts"
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": [
+          "libs/shared/util-env-token/**/*.ts",
+          "libs/shared/util-env-token/**/*.html"
+        ]
+      }
+    }
+  }
+}
