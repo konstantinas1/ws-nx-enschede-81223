@@ -1,1 +1,1 @@
-export * from './lib/movies-ui-movie-card/movies-ui-movie-card.component';
+export * from './lib/movie-card.component';

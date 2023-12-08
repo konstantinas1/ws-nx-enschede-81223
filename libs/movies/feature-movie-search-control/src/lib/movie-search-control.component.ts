@@ -3,8 +3,8 @@ import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
 import { of, Subject, switchMap } from 'rxjs';
 import { MovieModel } from '@ws-nx-enschede-81223/shared/models';
 import { NgIf, NgFor, AsyncPipe } from '@angular/common';
-import { SearchMovieService } from '../search-movie.service';
 import { MovieImagePipe } from '@ws-nx-enschede-81223/shared/utils';
+import { SearchMovieService } from '@ws-nx-enschede-81223/movies/data-access-movies';
 
 @Component({
   selector: 'app-movie-search-control',

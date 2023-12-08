@@ -1,1 +1,1 @@
-export * from './lib/movies-data-access-movies/movies-data-access-movies.component';
+export * from './lib/search-movie.service';

@@ -12,7 +12,7 @@ import { MovieModel } from '@ws-nx-enschede-81223/shared/models';
 import { MovieService } from '../movie.service';
 import { FastSvgComponent } from '@push-based/ngx-fast-svg';
 import { NgTemplateOutlet, NgFor } from '@angular/common';
-import { MovieSearchControlComponent } from '../movie-search-control/movie-search-control.component';
+import { MovieSearchControlComponent } from '../../../../../../libs/movies/feature-movie-search-control/src/lib/movie-search-control.component';
 
 @Component({
   selector: 'app-my-movie-list',

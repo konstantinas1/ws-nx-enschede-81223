@@ -1,1 +1,1 @@
-export * from './lib/shared-ui-star-rating/shared-ui-star-rating.component';
+export * from './lib/star-rating.component';
