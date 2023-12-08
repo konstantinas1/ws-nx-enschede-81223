@@ -1,0 +1,9 @@
+{
+  "name": "shared-ui-theme",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/shared/ui-theme/src",
+  "prefix": "ws-nx-enschede-81223",
+  "tags": [],
+  "projectType": "library",
+  "targets": {}
+}

@@ -1,0 +1,33 @@
+{
+  "name": "movies-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/movies-e2e/src",
+  "targets": {
+    "e2e": {
+      "executor": "@nx/cypress:cypress",
+      "options": {
+        "cypressConfig": "apps/movies-e2e/cypress.config.ts",
+        "testingType": "e2e",
+        "devServerTarget": "movies:serve:development"
+      },
+      "configurations": {
+        "production": {
+          "devServerTarget": "movies:serve:production"
+        },
+        "ci": {
+          "devServerTarget": "movies:serve-static"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/movies-e2e/**/*.{js,ts}"]
+      }
+    }
+  },
+  "tags": [],
+  "implicitDependencies": ["movies"]
+}
