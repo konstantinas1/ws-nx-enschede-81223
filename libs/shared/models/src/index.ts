@@ -1,1 +1,2 @@
-export * from './lib/shared-models/shared-models.component';
+export * from './lib/movie-model';
+export * from './lib/movie-genre.model';

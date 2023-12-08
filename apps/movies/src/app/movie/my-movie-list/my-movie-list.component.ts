@@ -8,7 +8,7 @@ import {
   ReactiveFormsModule,
 } from '@angular/forms';
 import { filter } from 'rxjs';
-import { MovieModel } from '../movie-model';
+import { MovieModel } from '@ws-nx-enschede-81223/shared/models';
 import { MovieService } from '../movie.service';
 import { FastSvgComponent } from '@push-based/ngx-fast-svg';
 import { NgTemplateOutlet, NgFor } from '@angular/common';

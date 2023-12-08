@@ -1,7 +1,7 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { FastSvgComponent } from '@push-based/ngx-fast-svg';
 import { NgFor, NgIf, UpperCasePipe } from '@angular/common';
-import { MovieModel } from '../movie-model';
+import { MovieModel } from '@ws-nx-enschede-81223/shared/models';
 import { StarRatingComponent } from '../../ui/pattern/star-rating/star-rating.component';
 import {
   MovieImagePipe,

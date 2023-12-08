@@ -4,9 +4,9 @@ import { insert, remove } from '@rx-angular/cdk/transformations';
 import { map, Observable, tap, timer } from 'rxjs';
 import { TMDBMovieCreditsModel } from '../shared/model/movie-credits.model';
 import { TMDBMovieDetailsModel } from '../shared/model/movie-details.model';
-import { TMDBMovieGenreModel } from '../shared/model/movie-genre.model';
+import { TMDBMovieGenreModel } from '@ws-nx-enschede-81223/shared/models';
 import { TMDBMovieModel } from '../shared/model/movie.model';
-import { MovieModel } from './movie-model';
+import { MovieModel } from '@ws-nx-enschede-81223/shared/models';
 import {
   ENVIRONMENT_TOKEN,
   Environment,

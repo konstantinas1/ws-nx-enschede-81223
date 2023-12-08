@@ -1,8 +1,11 @@
 import { HttpClient } from '@angular/common/http';
 import { Inject, Injectable } from '@angular/core';
 import { Observable, map, tap } from 'rxjs';
-import { MovieModel } from './movie-model';
-import { ENVIRONMENT_TOKEN, Environment } from '@ws-nx-enschede-81223/shared/util-env-token';
+import { MovieModel } from '@ws-nx-enschede-81223/shared/models';
+import {
+  ENVIRONMENT_TOKEN,
+  Environment,
+} from '@ws-nx-enschede-81223/shared/util-env-token';
 
 @Injectable({ providedIn: 'root' })
 export class SearchMovieService {

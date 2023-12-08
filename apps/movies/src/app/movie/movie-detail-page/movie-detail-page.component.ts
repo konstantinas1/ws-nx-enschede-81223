@@ -3,7 +3,7 @@ import { ActivatedRoute } from '@angular/router';
 import { Observable } from 'rxjs';
 import { TMDBMovieCreditsModel } from '../../shared/model/movie-credits.model';
 import { TMDBMovieDetailsModel } from '../../shared/model/movie-details.model';
-import { MovieModel } from '../movie-model';
+import { MovieModel } from '@ws-nx-enschede-81223/shared/models';
 import { MovieService } from '../movie.service';
 import { MovieListComponent } from '../movie-list/movie-list.component';
 import { FastSvgComponent } from '@push-based/ngx-fast-svg';

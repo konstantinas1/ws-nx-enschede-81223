@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Observable, switchMap } from 'rxjs';
-import { MovieModel } from '../movie-model';
+import { MovieModel } from '@ws-nx-enschede-81223/shared/models';
 import { MovieListComponent } from '../movie-list/movie-list.component';
 import { NgIf, AsyncPipe } from '@angular/common';
 import { SearchMovieService } from '../search-movie.service';
