@@ -13,7 +13,7 @@ import { SearchBarComponent } from '../ui/component/search-bar/search-bar.compon
 import { HamburgerButtonComponent } from '../ui/component/hamburger-button/hamburger-button.component';
 import { NgFor, AsyncPipe } from '@angular/common';
 import { FastSvgComponent } from '@push-based/ngx-fast-svg';
-import { SideDrawerComponent } from '../ui/component/side-drawer/side-drawer.component';
+import { SideDrawerComponent } from '@ws-nx-enschede-81223/shared/ui';
 
 @Component({
   selector: 'app-shell',

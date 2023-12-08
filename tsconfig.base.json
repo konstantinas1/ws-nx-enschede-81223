@@ -15,9 +15,11 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@ws-nx-enschede-81223/shared/ui": ["libs/shared/ui/src/index.ts"],
       "@ws-nx-enschede-81223/shared/ui-theme": [
         "libs/shared/ui-theme/src/index.ts"
-      ]
+      ],
+      "@ws-nx-enschede-81223/shared/utils": ["libs/shared/utils/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

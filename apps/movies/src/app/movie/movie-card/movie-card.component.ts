@@ -2,9 +2,11 @@ import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { FastSvgComponent } from '@push-based/ngx-fast-svg';
 import { NgFor, NgIf, UpperCasePipe } from '@angular/common';
 import { MovieModel } from '../movie-model';
-import { MovieImagePipe } from '../movie-image.pipe';
 import { StarRatingComponent } from '../../ui/pattern/star-rating/star-rating.component';
-import { TiltDirective } from '../../tilt/tilt.directive';
+import {
+  MovieImagePipe,
+  TiltDirective,
+} from '@ws-nx-enschede-81223/shared/utils';
 
 @Component({
   selector: 'movie-card',

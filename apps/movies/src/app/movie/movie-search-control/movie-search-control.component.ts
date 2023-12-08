@@ -2,9 +2,9 @@ import { AfterViewInit, Component, ElementRef, ViewChild } from '@angular/core';
 import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
 import { of, Subject, switchMap } from 'rxjs';
 import { MovieModel } from '../movie-model';
-import { MovieImagePipe } from '../movie-image.pipe';
 import { NgIf, NgFor, AsyncPipe } from '@angular/common';
 import { SearchMovieService } from '../search-movie.service';
+import { MovieImagePipe } from '@ws-nx-enschede-81223/shared/utils';
 
 @Component({
   selector: 'app-movie-search-control',

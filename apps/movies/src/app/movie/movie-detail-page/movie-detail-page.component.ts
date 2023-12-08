@@ -5,12 +5,12 @@ import { TMDBMovieCreditsModel } from '../../shared/model/movie-credits.model';
 import { TMDBMovieDetailsModel } from '../../shared/model/movie-details.model';
 import { MovieModel } from '../movie-model';
 import { MovieService } from '../movie.service';
-import { MovieImagePipe } from '../movie-image.pipe';
 import { MovieListComponent } from '../movie-list/movie-list.component';
 import { FastSvgComponent } from '@push-based/ngx-fast-svg';
 import { StarRatingComponent } from '../../ui/pattern/star-rating/star-rating.component';
 import { DetailGridComponent } from '../../ui/component/detail-grid/detail-grid.component';
 import { CommonModule } from '@angular/common';
+import { MovieImagePipe } from '@ws-nx-enschede-81223/shared/utils';
 
 @Component({
   selector: 'movie-detail-page',
