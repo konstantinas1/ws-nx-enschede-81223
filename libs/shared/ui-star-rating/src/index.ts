@@ -1,1 +1,1 @@
-export * from './lib/star-rating.component';
+export { StarRatingComponent } from './lib/star-rating.component';

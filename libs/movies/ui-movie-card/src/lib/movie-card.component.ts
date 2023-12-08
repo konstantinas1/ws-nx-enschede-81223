@@ -9,6 +9,7 @@ import {
 } from '@ws-nx-enschede-81223/shared/utils';
 
 @Component({
+  // eslint-disable-next-line @angular-eslint/component-selector
   selector: 'movie-card',
   templateUrl: './movie-card.component.html',
   styleUrls: ['./movie-card.component.scss'],
